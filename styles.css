@@ -1,0 +1,153 @@
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  .text{
+    color: #f0f0f0;
+    margin:0 auto;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.17);
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1518px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.236);
+  }
+  
+  header {
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  header h1 {
+    float: left;
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    float: right;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px 0;
+  }
+  
+  .video-container {
+    position: relative;
+    width: 100%;
+    /* 16:9 aspect ratio (height: width) */
+  }
+  
+  #videoPlayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  .content h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .movie {
+    text-align: center;
+  }
+  
+  .movie img {
+    width: 110%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .movie h3 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .grid > .movie{
+    color: rgb(255, 255, 255);
+    /*border:5px dotted white;*/
+}
+.video-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  /* Video styles */
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .text1{
+    color: #fff;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.334);
+
+  }
+  .movies {
+    text-align: center;
+  }
+  
+  .movies img {
+    width: 50%;
+    max-width: 20%;
+    height: 150px;
+    border-radius: 8px;
+  }
+  
+  .movies h3 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+.footer{
+    color: beige;
+    padding: 8px;
+    background-color: black;
+}
+  
